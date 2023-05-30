@@ -1,0 +1,75 @@
+{
+  "assign": {
+    "avatar": "",
+    "name": "dev1",
+    "uuid": "JL9LRP4k"
+  },
+  "canBrowse": true,
+  "canModify": true,
+  "canModifyPlanTimes": true,
+  "canModifyProgress": true,
+  "chartUUID": "EN4U9hkG",
+  "createTime": 1680253973,
+  "deliverable": [],
+  "estimatedHours": 0,
+  "ganttDataType": "task",
+  "isVirtual": false,
+  "key": "activity-2YjBgx8H",
+  "milestone": {
+    "uuid": ""
+  },
+  "name": "需求2",
+  "number": 25,
+  "parent": "VqoR7KT6",
+  "planEndTime": null,
+  "planStartTime": null,
+  "position": -562949953371312,
+  "postDependencyCount": 0,
+  "ppmTask": {
+    "uuid": ""
+  },
+  "preDependencyCount": 0,
+  "progress": null,
+  "relatedProjectUUID": "JL9LRP4kbGkABy4u",
+  "relatedTaskIssueType": {
+    "icon": 7,
+    "uuid": "HzWqoTfE"
+  },
+  "relatedTaskParent": {
+    "uuid": ""
+  },
+  "relatedTaskStatus": {
+    "name": "未开始",
+    "uuid": "GJMBEbMs"
+  },
+  "relatedTaskSubIssueType": null,
+  "relatedTaskUUID": "JL9LRP4kEMJTf22W",
+  "remainingManhour": 0,
+  "reminders": [
+    "empty_time"
+  ],
+  "source": [],
+  "sprint": {
+    "uuid": ""
+  },
+  "target": [],
+  "task": {
+    "issueType": {
+      "icon": 7,
+      "name": "需求",
+      "uuid": "HzWqoTfE"
+    },
+    "number": 135,
+    "parent": {
+      "uuid": ""
+    },
+    "status": {
+      "name": "未开始",
+      "uuid": "GJMBEbMs"
+    },
+    "subIssueType": null,
+    "uuid": "JL9LRP4kEMJTf22W"
+  },
+  "totalManhour": 0,
+  "uuid": "2YjBgx8H"
+}

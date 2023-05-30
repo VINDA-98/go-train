@@ -1,0 +1,10 @@
+{
+  "query": "\n    query ActivityRelationLinks {\n      activityRelationLinks(filter: $filter) {\n        key\n        source {\n          uuid\n          name\n          canBrowse\n          chart {\n            project {\n              uuid\n            }\n          }\n        }\n        sourceTask \n{\n  key\n  uuid\n  name\n  project {\n    uuid\n    activityChart {\n      uuid\n    }\n  }\n  assign {\n    key\n    uuid\n    name\n    avatar\n  }\n  status {\n    uuid\n    name\n    namePinyin\n    category\n    builtIn\n    detailType\n  }\n  priority {\n    bgColor\n    color\n    uuid\n    value\n    position\n  }\n  deadline\n  issueType {\n    key\n    uuid\n    name\n    builtIn\n    detailType\n    namePinyin\n    icon\n    subIssueType\n  }\n  subIssueType {\n    key\n    uuid\n    value: uuid\n    name\n    label: name\n    builtIn\n    detailType\n    namePinyin\n    icon\n  }\n  owner {\n    key\n    uuid\n    name\n    avatar\n  }\n  importantField {\n    bgColor\n    color\n    fieldUUID\n    name\n    value\n  }\n  canView(attachPermission:{\n    permissions:[\"view_tasks\"],\n  })\n  canEdit(attachPermission:{\n    permissions:[\"update_tasks\"],\n  })\n}\n\n        sourceType\n        relationType\n        chartUUID\n      }\n    }\n  ",
+  "variables": {
+    "filter": {
+      "target": {
+        "uuid_equal": "JL9LRP4kEMJTf22W"
+      }
+    }
+  }
+}
